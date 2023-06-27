@@ -4,6 +4,7 @@ import { ClientlistComponent } from './clientlist/clientlist.component';
 import { RouterModule, Routes } from '@angular/router';
 import { SearchPipe } from './search.pipe';
 import { FormsModule } from '@angular/forms';
+import { CounterLibModule } from 'counter-lib';
 
 const routes:Routes = [
   {
@@ -20,6 +21,7 @@ const routes:Routes = [
     CommonModule,
     FormsModule,
     RouterModule.forChild(routes),
+    CounterLibModule
   ]
 })
 export class ListModule { }
