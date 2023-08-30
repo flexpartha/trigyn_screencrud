@@ -1,0 +1,8 @@
+.backgroundBox{
+    display: block;
+    width: 230px;
+    height: 230px;
+    border: 1px solid #bdb5b5;
+    background-color: aqua;
+    margin-top: 23px;
+}

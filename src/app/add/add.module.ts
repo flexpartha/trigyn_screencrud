@@ -6,7 +6,11 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 const routes:Routes = [
   {
-    path: '', component:AddclientComponent
+    path: '', children:[
+      {
+        path: '', component:AddclientComponent
+      }
+    ]
   }
 ]
 
